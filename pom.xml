@@ -55,6 +55,7 @@
 					</buildArgs>
                     <serverId>docker-hub</serverId>
                     <registryUrl>https://index.docker.io/v1/</registryUrl>
+                    <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
                 <executions>
                     <execution>
